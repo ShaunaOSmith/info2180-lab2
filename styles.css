@@ -1,0 +1,102 @@
+body{
+    font-size: 18px;
+    color:   #2D3748  ;
+    font-family: -apple-system,BlinkMacSystemFont,"SegoeUI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sansserif;
+}
+.container{
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 70% 30%;
+}
+/*--------header--------*/
+header{
+    background-color: #63B3ED;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center ;
+    padding: 15px;
+    color: #FFFFFF;
+    grid-column:span 2;
+
+    
+
+}
+
+h1{
+  
+   font-size: 36px;
+   font-family:  Georgia, 'Times New Roman', Times, serif;
+}
+
+
+
+.img-girl{
+    width: 150px;
+    border-radius: 50%;
+
+}
+
+/*--------Blog--------*/
+article{
+    width: 60%;
+    margin-left: 5%;
+    grid-column: 1 ;
+
+}
+h2{
+    color: #48BB78;
+    font-size: 32px;
+}
+h5{
+    color: #718096;
+}
+.img-blog{
+    width: 200px;
+    float: right;
+
+}
+.img-blog2{
+    width: 200px;
+    float: left;
+}
+
+/*-------sidebar---------*/
+
+aside{
+    grid-column: 2;
+    width: 45%;
+    padding: 16px;
+    
+
+}
+.box{
+    width:300px;
+    height: 200px;
+    background-color: #E2E8F0 ;
+    padding: 5px;
+}
+.box h3{
+    color: #000000;
+    padding: 10px;
+}
+.box p{
+    padding: 10px;
+}
+h3{
+    color:  #48BB78;
+    font-family: Georgia,
+    'Times New Roman', Times, serif;
+}
+li a{
+    color: #4299E1;
+}
+/*-----footer------*/
+footer{
+    grid-column: 1/3;
+    text-align: left;
+    background:#2C5282;
+    color: #FFFFFF;
+    padding: 10px;
+
+}
